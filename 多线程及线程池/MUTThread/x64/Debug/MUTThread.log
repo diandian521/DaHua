@@ -1,0 +1,26 @@
+﻿生成启动时间为 2017/11/6 14:59:14。
+     1>项目“E:\MUTThread\MUTThread\MUTThread.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\MUTThread.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\WorkerThread\TrackerMonitor.cpp ..\WorkerThread\TrackerTask.cpp MUTThread.cpp MUTThreadDlg.cpp TrackerMap.cpp
+         TrackerMap.cpp
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         MUTThreadDlg.cpp
+         MUTThread.cpp
+         TrackerTask.cpp
+         TrackerMonitor.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MUTThread\x64\Debug\MUTThread.exe" /INCREMENTAL /NOLOGO opencv_ml2413d.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_nonfree2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_videostab2413d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\MUTThread\x64\Debug\MUTThread.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MUTThread\x64\Debug\MUTThread.lib" /MACHINE:X64 x64\Debug\MUTThread.res
+         x64\Debug\DICThreadPool.obj
+         x64\Debug\TrackerMonitor.obj
+         x64\Debug\TrackerTask.obj
+         x64\Debug\MUTThread.obj
+         x64\Debug\MUTThreadDlg.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\TrackerMap.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“E:\MUTThread\x64\Debug\MUTThread.exe”
+     1>已完成生成项目“E:\MUTThread\MUTThread\MUTThread.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.18
